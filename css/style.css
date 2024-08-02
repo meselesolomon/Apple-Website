@@ -255,12 +255,14 @@ img {
   background-size: 700px 580px;
   cursor: pointer;
 }
+
+/* last images style  */
 .ipad-apple {
   display: flex;
   justify-content: space-between;
   background-color:  #fff;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 
@@ -392,6 +394,10 @@ img {
   font-size: 1.15em;
 }
 
+.footer-contents-text a {
+  color: #555;
+}
+
 .footer h6 {
   font-weight: 600;
   margin-bottom: .8em;
@@ -407,12 +413,13 @@ img {
 
 .footer-lists ul {
   list-style: none;
+  padding-left: 0;
 }
 
 .footer-lists ul li a {
   text-decoration: none;
   color: #555;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .footer-lists ul li a:hover {
@@ -435,6 +442,7 @@ img {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding-left: 0;
 }
 
 .footer-end--text {
@@ -456,6 +464,87 @@ img {
 
 
 
+/* last style  */
+.card-iphone {
+  display: flex;
+  justify-content: space-between;
+  background-color:  #fff;
+  text-align: center;
+  margin-top: 10px;
+}
 
+/* card pro style  */
+.card {
+  width: 49.5%;
+  color: black;
+}
+.card__contents--model {
+  font-size: 56px;
+}
 
+.card__contents--title {
+  padding: 0px;
+}
 
+.card__links {
+  padding-top: 8px;
+}
+.card__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+.card__links--card {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+}
+
+.card__links--ipad:hover {
+  background-color: #06c;
+  color: white;
+}
+
+/* apple intelligence  */
+.iphone-tradein {
+  width: 49.5%;
+}
+
+.iphone-tradein_contents--model {
+  font-size: 56px;
+}
+
+.iphone-tradein_contents--title {
+  color: #555;
+  padding: 0px;
+  color: #555;
+}
+
+.iphone-tradein_links {
+  padding-top: 8px;
+}
+.iphone-tradein__links--learn {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: #06c;
+  padding: 10px 15px;
+}
+
+/* .iphone-tradein_links--apple {
+  text-decoration: none;
+  color: #06c;
+  border-radius: 20px;
+  padding: 8px 15px ;
+  border: 1px solid #06c;
+} */
+
+.iphone-tradein_links--apple:hover {
+  background-color: #06c;
+  color: white;
+}
